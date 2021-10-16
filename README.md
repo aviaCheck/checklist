@@ -1,2 +1,2 @@
-# hacktoberfest
-Hacktoberfest!
+# aviaCheck
+A checklist app for aviation
