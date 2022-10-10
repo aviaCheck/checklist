@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Checkbox, Container, Title } from "@mantine/core";
+import { Checkbox, Container, Title, Text } from "@mantine/core";
 
 export default function Home() {
   return (
@@ -12,7 +12,10 @@ export default function Home() {
       </Head>
 
       <Container pt={50}>
-        <Title>Checklist</Title>
+        <Title>Checklist for Bombardier Q300</Title>
+        <Text>
+          Checklist to be completed before takeoff on the Bombardier Q300.
+        </Text>
         <div>
           <Checkbox color="pink" pt={30} label="Fuel airplane" />
           <Checkbox color="pink" pt={8} label="Do walkaround" />
